@@ -1,0 +1,10 @@
+
+# data source
+spring:
+  application:
+    name: 'loja'
+  profiles:
+    active: default
+  cloud:
+    config:
+      uri: http://localhost:8888
