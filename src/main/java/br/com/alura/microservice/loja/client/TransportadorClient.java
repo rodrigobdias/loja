@@ -10,6 +10,6 @@ import br.com.alura.microservice.loja.controller.dto.VoucherDTO;
 @FeignClient("transportador")
 public interface TransportadorClient {
 
-	@PostMapping("/{entrega}")
+	@PostMapping("/entrega")
 	public VoucherDTO reservaEntrega(InfoEntregaDTO pedidoDTO);
 }
