@@ -21,13 +21,11 @@ public class CompraController {
 		
 	@PostMapping
 	public Compra realizaCompra(@RequestBody CompraDTO compra) {
-		
 		return compraService.realizaCompra(compra);
 	}
 	
 	@GetMapping("/{id}")
 	public Compra getById(@PathVariable("id") Long id) {
-		
 		return compraService.getById(id);
 	}
 }
