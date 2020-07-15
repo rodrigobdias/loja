@@ -18,3 +18,6 @@ security:
   oauth2:
     resource:
       user-info-uri: http://localhost:8085/user
+      
+hystrix:
+  shareSecurityContext: true

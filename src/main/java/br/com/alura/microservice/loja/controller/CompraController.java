@@ -1,6 +1,8 @@
 package br.com.alura.microservice.loja.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,6 +28,7 @@ public class CompraController {
 	
 	@GetMapping("/{id}")
 	public Compra getById(@PathVariable("id") Long id) {
+		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 		return compraService.getById(id);
 	}
 }
