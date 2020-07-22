@@ -2,7 +2,7 @@
 
 Projeto desenvolvido no curso de Microservices com Spring Cloud
 
-Fazem parte desse curso os projetos:
+Projetos que fazem parte desse curso:
 
 - transportador
 
