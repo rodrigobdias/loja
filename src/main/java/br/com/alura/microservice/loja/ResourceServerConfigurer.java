@@ -15,4 +15,5 @@ public class ResourceServerConfigurer extends ResourceServerConfigurerAdapter{
 			.hasRole("USER");
 	}
 
+
 }
