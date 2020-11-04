@@ -1,8 +1,9 @@
 # loja
+======
 
-Projeto desenvolvido no curso de Microservices com Spring Cloud
+Microservices com Spring Cloud
 
-Projetos que fazem parte desse curso:
+Outros microsserviços que fazem parte:
 
 - transportador
 
